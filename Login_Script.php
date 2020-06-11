@@ -47,7 +47,7 @@ if ($a == 1){
 	header("Location:Profile.php");	
 }else{
 	array_push($_SESSION['log'], "Wrong Email or Password");
-	header("Location:Login.php");
+	header("Location:index.php");
 }
 $connect->close();
 ?>

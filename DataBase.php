@@ -1,7 +1,7 @@
 <?php
 session_start();
 if ($_SESSION['logemail']== null){
-	header("Location:Login.php");
+	header("Location:index.php");
 }
 ?>
 <html>

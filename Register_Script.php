@@ -29,7 +29,7 @@ $sql = "INSERT INTO users (first_name, last_name, username, email, pass)
 VALUES ('$FN', '$LN', '$UN', '$email', '$validpass')";
 mysqli_query($connect, $sql);
 $connect->close();
-header("Location:Login.php");
+header("Location:index.php");
 }
 
 ?>
