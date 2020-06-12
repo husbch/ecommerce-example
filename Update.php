@@ -4,8 +4,8 @@ session_start();
 
 $servername = "localhost";	
 $username = "root";
-$password = "";
-$database = "surya";
+$password = "admin";
+$database = "local";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 
@@ -85,7 +85,7 @@ $zip 		= $row["zip"];
 				<tr>
 					<td><button type="submit" class="btn">Update</button><br>
 					</form>
-					<td><a href="http://localhost/Surya/Login_System/DataBase.php">Cancle</a><br>
+					<td><a href="DataBase.php">Cancel</a><br>
 					</td>
 				</tr>
 				<tr>

@@ -3,8 +3,8 @@ session_start();
 
 $servername = "localhost";
 $username = "root";
-$password = "";
-$database = "surya";
+$password = "admin";
+$database = "local";
 
 $userid			= $_POST['userid']; 
 $city 			= $_POST['city']; 

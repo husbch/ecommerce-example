@@ -63,7 +63,7 @@ Set ID Number to <input type='text' name='id'>
 <?php
 function numid(){
 $id = $_POST['id'];
-$conn = mysqli_connect("localhost", "root", "", "surya");
+$conn = mysqli_connect("localhost", "root", "admin", "local");
 $sql = "ALTER TABLE addresses AUTO_INCREMENT='$id'";
 if ($result = mysqli_query($conn, $sql)){
 	header("Location:DataBase.php");

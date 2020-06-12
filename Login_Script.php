@@ -4,8 +4,8 @@ include "Register.php";
 
 $servername = "localhost";
 $username = "root";
-$password = "";
-$database = "surya";
+$password = "admin";
+$database = "local";
 
 $_SESSION['cart'] = array();
 $_SESSION['log'] = array();

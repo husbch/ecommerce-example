@@ -62,7 +62,7 @@ table, tr, td.head {
 </tr>
 </table></div>
 <?php
-$conn = mysqli_connect("localhost", "root", "", "surya");
+$conn = mysqli_connect("localhost", "root", "admin", "local");
 if($conn->connect_error){
 	die("Unable connect to Database : ". $conn->connect_error);
 }
