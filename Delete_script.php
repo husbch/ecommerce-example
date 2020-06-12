@@ -6,7 +6,7 @@ $database = "local";
 
 $connection = mysqli_connect($servername, $username, $password, $database);
 
-include "DB.php";
+include "DataBase.php";
 
 $id = $_GET['id'];
 
