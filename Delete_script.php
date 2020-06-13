@@ -6,7 +6,7 @@ $database = "local";
 
 $connection = mysqli_connect($servername, $username, $password, $database);
 
-include "DataBase.php";
+include "database.php";
 
 $id = $_GET['id'];
 
@@ -21,7 +21,7 @@ $sql = "DELETE FROM addresses WHERE address_id='$id'";
 
 if (mysqli_query($connection, $sql)){
 	echo "data Deleted Successfully<br><br>";
-	header("Location:DataBase.php");	
+	header("Location:database.php");	
 	mysqli_close($connection);
 } else {
 	echo "unable to remove the Data :".$connection->error;

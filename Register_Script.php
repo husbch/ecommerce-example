@@ -20,7 +20,7 @@ if($connect->connect_error){
 }
 if ($pass != $cofmpass ){
 $connect->close();
-header("Location:Register.php");
+header("Location:register.php");
 
 } else {
 	

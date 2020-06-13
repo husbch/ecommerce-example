@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "Register.php";
+include "register.php";
 
 $servername = "localhost";
 $username = "root";
@@ -44,7 +44,7 @@ if ($a == 1){
 	$_SESSION['logfn']= $logfn;
 	$_SESSION['logln']= $logln;
 	$_SESSION['logid']= $logid;
-	header("Location:Profile.php");	
+	header("Location:profile.php");	
 }else{
 	array_push($_SESSION['log'], "Wrong Email or Password");
 	header("Location:index.php");

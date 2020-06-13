@@ -68,7 +68,7 @@ WHERE address_id='$addid'";
 if (mysqli_query($connection, $sqlup)){
 	echo "data updated Successfully<br><br>";
 	mysqli_close($connection);
-	header("Location:DataBase.php");	
+	header("Location:database.php");	
 } else {
 echo "Failed to update data :" .$connection->error;
 mysqli_close($connection);

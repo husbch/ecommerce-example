@@ -54,10 +54,10 @@ table, tr, td.database {
 <body><div class='head'>
 <table class='head' >
 <tr>
-<td><a href='Profile.php' class='header' >Profile</a></td>
-<td><?php echo $_SESSION['logname'] ."<br>".  $_SESSION['logfn'] ." ".  $_SESSION['logln'];?><br><a href='Logout.php' style='text-decoration:none;'>Logout</a></td>
+<td><a href='profile.php' class='header' >Profile</a></td>
+<td><?php echo $_SESSION['logname'] ."<br>".  $_SESSION['logfn'] ." ".  $_SESSION['logln'];?><br><a href='logout.php' style='text-decoration:none;'>Logout</a></td>
 <td><a href='product.php' class='header' >Shop</a></td>
-<td><a href='DataBase.php' class='header'>Addresses</a></td>
+<td><a href='database.php' class='header'>Addresses</a></td>
 <td><a href='cart.php'><img src='product/cart.png' class='heading'></a></td>
 <td><?php echo count($_SESSION['cart']);?></td>
 </tr>
@@ -86,8 +86,8 @@ echo 	"<div class='database'>"."<table width='1300'>".
 		"<td>City</td>". 
 		"<td>State Province</td>". 
 		"<td>Zip</td>".
-		"<td  style='background-color:#FFFFFF;'><a href='Insert.php'><button style='color:#00DD00;'>Insert</button></a></td>".
-		"<td  style='background-color:#FFFFFF;'><a href='Auto_Increment.php'><button style='color:#00FFFF;'>Set ID Number</button></a></td>".
+		"<td  style='background-color:#FFFFFF;'><a href='insert.php'><button style='color:#00DD00;'>Insert</button></a></td>".
+		"<td  style='background-color:#FFFFFF;'><a href='auto_increment.php'><button style='color:#00FFFF;'>Set ID Number</button></a></td>".
 		"</tr>";
 
 $counter = 1;
@@ -108,8 +108,8 @@ echo
 		"<td >". $row["state_province"]	. "</td>" .
 		"<td >". $row["zip"]				. "</td>"
 		?>
-		<th style='background-color:#FFFFFF;' style='padding:15px;'> <a href="Update.php?id=<?=$row["address_id"]?>"  ><button style="color:#00AAFF;"> Update </button></a></th>
-		<th style='background-color:#FFFFFF;' style='padding:15px;'> <a href="Delete_script.php?id=<?=$row["address_id"]?>"  ><button style="color:#FF0000;"> Delete </button></a></th>
+		<th style='background-color:#FFFFFF;' style='padding:15px;'> <a href="update.php?id=<?=$row["address_id"]?>"  ><button style="color:#00AAFF;"> Update </button></a></th>
+		<th style='background-color:#FFFFFF;' style='padding:15px;'> <a href="delete_script.php?id=<?=$row["address_id"]?>"  ><button style="color:#FF0000;"> Delete </button></a></th>
 		<?php
 		"</tr>";
 		$counter++;

@@ -25,7 +25,7 @@ session_start();
 	</head>
 	<body>
 	
-		<form action="Login_Script.php" method="post">
+		<form action="login_script.php" method="post">
 			<table align="right" >
 				<tr >
 					<td width="100%" rowspan="2"><img src="product/sql.png" width="350px" height="140"/></td>
@@ -36,7 +36,7 @@ session_start();
 				<tr>
 					<td width='1'><button type="submit" name="register" class="btn">Login</button>
 					<p><?php?></p></td>
-					<td><a href="Register.php">Not a member yet ?</a></td>
+					<td><a href="register.php">Not a member yet ?</a></td>
 				</tr>
 			</table>
 		</form>

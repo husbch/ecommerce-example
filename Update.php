@@ -65,7 +65,7 @@ $zip 		= $row["zip"];
 		</style>
 	</head>
 	<body>
-		<form action="Update_Script.php" method="post">
+		<form action="update_script.php" method="post">
 			<table>
 				<tr>
 					<td><p>ID</p><input type="text" name="addid" class="ID" maxlength="9" placeholder="<?php echo $addid; ?>" readonly style='background-color:#EEEEEE;'></td>
@@ -85,7 +85,7 @@ $zip 		= $row["zip"];
 				<tr>
 					<td><button type="submit" class="btn">Update</button><br>
 					</form>
-					<td><a href="DataBase.php">Cancel</a><br>
+					<td><a href="database.php">Cancel</a><br>
 					</td>
 				</tr>
 				<tr>

@@ -26,9 +26,9 @@ VALUES ('$userid', '$addline1', '$addline2', '$addline3', '$city', '$province', 
 
 if (mysqli_query($connection, $sql)){
 	echo "data Inserted Successfully!";
-	header("Location:Database.php");	
+	header("Location:database.php");	
 	mysqli_close($connection);
 } else {
 	echo "error : ". $sql . "<br>" . mysqli_error($connection);
 }
-?>
+?> 

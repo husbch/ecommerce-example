@@ -22,7 +22,7 @@
 		</style>
 	</head>
 	<body>
-		<form action="Register_Script.php" method="post">
+		<form action="register_script.php" method="post">
 			<table>
 				<tr>
 					<td><p>First Name</p><input type="text" name="first_name" class="textbox"></td>

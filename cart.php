@@ -107,10 +107,10 @@ input[type=number]::-webkit-outer-spin-button {
 <body>
 <table align='center'>
 <tr>
-<td><a href='Profile.php' class='header' >Profile</a></td>
-<td><?php echo $_SESSION['logname'] ."<br>".  $_SESSION['logfn'] ." ".  $_SESSION['logln'];?><br><a href='Logout.php' style='text-decoration:none;'>Logout</a></td>
+<td><a href='profile.php' class='header' >Profile</a></td>
+<td><?php echo $_SESSION['logname'] ."<br>".  $_SESSION['logfn'] ." ".  $_SESSION['logln'];?><br><a href='logout.php' style='text-decoration:none;'>Logout</a></td>
 <td><a href='product.php' class='header' >Shop</a></td>
-<td><a href='DataBase.php' class='header'>Addresses</a></td>
+<td><a href='database.php' class='header'>Addresses</a></td>
 <td><a href='cart.php'><img src='product/cart.png' class='heading'></a></td>
 <td><?php echo count($_SESSION['cart']);?></td>
 </tr>
