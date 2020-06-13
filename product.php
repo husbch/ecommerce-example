@@ -62,7 +62,7 @@ table, tr, td.head {
 </tr>
 </table></div>
 <?php
-$conn = mysqli_connect("localhost", "root", "admin", "local");
+$conn = mysqli_connect("localhost", "husni", "admin", "husni_wordpress");
 if($conn->connect_error){
 	die("Unable connect to Database : ". $conn->connect_error);
 }

@@ -78,7 +78,7 @@ a:active.header {
 
 	$_SESSION['cart'];
 
-	$conn = mysqli_connect("localhost", "root", "admin", "local");
+	$conn = mysqli_connect("localhost", "husni", "admin", "husni_wordpress");
 	echo 
 	"<table align='center' class='tabdiv1'>".
 	"<tr align='center'>". 

@@ -2,9 +2,9 @@
 session_start();
 
 $servername = "localhost";
-$username = "root";
+$username = "husni";
 $password = "admin";
-$database = "local";
+$database = "husni_wordpress";
 
 $userid			= $_POST['userid']; 
 $city 			= $_POST['city']; 

@@ -74,7 +74,7 @@ table, tr, td.head {
 </table></div>
 <?php
 $logemail = $_SESSION['logemail'];
-$conn=mysqli_connect("localhost", "root", "admin", "local");
+$conn=mysqli_connect("localhost", "husni", "admin", "husni_wordpress");
 if ($conn->connect_error){
 	die("Unable COnnect to database : ". $conn->connect_error);
 }
@@ -100,7 +100,7 @@ echo
 if ($_SESSION['purchaseprogress']== 0){
 echo "<div align='center'>there are no product that you buy</div>";
 }else{
-	$conn = mysqli_connect("localhost", "root", "admin", "local");
+	$conn = mysqli_connect("localhost", "husni", "admin", "husni_wordpress");
 	echo 
 	"<table align='center' class='tabdiv1'>".
 	"<tr align='center'>". 

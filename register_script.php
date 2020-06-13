@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
+$username = "husni";
 $password = "admin";
-$database = "local";
+$database = "husni_wordpress";
 
 $FN = $_POST["first_name"];
 $LN = $_POST["last_name"];

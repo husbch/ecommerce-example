@@ -60,7 +60,7 @@ table, tr, td.head {
 <?php
 $id = $_GET['id'];
 
-$conn = mysqli_connect("localhost","root","admin","root");
+$conn = mysqli_connect("localhost","husni","admin","husni_wordpress");
 if ($conn->connect_error){
 	die("unable Connect To database : ". $conn->connect_error);
 }

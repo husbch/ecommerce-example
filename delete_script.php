@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
+$username = "husni";
 $password = "admin";
-$database = "local";
+$database = "husni_wordpress";
 
 $connection = mysqli_connect($servername, $username, $password, $database);
 

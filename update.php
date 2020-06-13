@@ -3,9 +3,9 @@
 session_start();
 
 $servername = "localhost";	
-$username = "root";
+$username = "husni";
 $password = "admin";
-$database = "local";
+$database = "husni_wordpress";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 

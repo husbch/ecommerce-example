@@ -3,9 +3,9 @@ session_start();
 include "register.php";
 
 $servername = "localhost";
-$username = "root";
+$username = "husni";
 $password = "admin";
-$database = "local";
+$database = "husni_wordpress";
 
 $_SESSION['cart'] = array();
 $_SESSION['log'] = array();
