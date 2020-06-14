@@ -5,7 +5,7 @@ session_start();
 $servername = "localhost";	
 $username = "husni";
 $password = "admin";
-$database = "husni_wordpress";
+$database = "husni_cenvius";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 

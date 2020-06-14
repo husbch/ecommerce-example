@@ -5,7 +5,7 @@ include "register.php";
 $servername = "localhost";
 $username = "husni";
 $password = "admin";
-$database = "husni_wordpress";
+$database = "husni_cenvius";
 
 $_SESSION['cart'] = array();
 $_SESSION['log'] = array();

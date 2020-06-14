@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "husni";
 $password = "admin";
-$database = "husni_wordpress";
+$database = "husni_cenvius";
 
 $FN = $_POST["first_name"];
 $LN = $_POST["last_name"];

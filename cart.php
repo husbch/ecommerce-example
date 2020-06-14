@@ -116,7 +116,7 @@ input[type=number]::-webkit-outer-spin-button {
 </tr>
 </table>
 <?php
-$conn = mysqli_connect("localhost", "husni", "admin", "husni_wordpress");
+$conn = mysqli_connect("localhost", "husni", "admin", "husni_cenvius");
 if($conn->connect_error){
 	die("Unable connect to Database". $conn->connect_error);
 }

@@ -4,7 +4,7 @@ session_start();
 $servername = "localhost";
 $username = "husni";
 $password = "admin";
-$database = "husni_wordpress";
+$database = "husni_cenvius";
 
 $userid			= $_POST['userid']; 
 $city 			= $_POST['city']; 
